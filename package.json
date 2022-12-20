@@ -1,0 +1,20 @@
+{
+  "name": "wm",
+  "version": "1.0.0",
+  "description": "[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-8mftge)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synbyte/wm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/synbyte/wm/issues"
+  },
+  "homepage": "https://github.com/synbyte/wm#readme"
+}
