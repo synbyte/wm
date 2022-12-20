@@ -1,0 +1,91 @@
+<html>
+  <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="styles.scss"></head>
+  <body>
+    <header>
+      <!--<img display="none" id="opener" src="https://www.clipartmax.com/png/full/148-1482058_walmart-logo-walmart-logo-no-background.png"/>-->
+
+      <i id="opener" class="bi bi-chevron-left left"></i>
+      <span class="left"></span>
+     <h3  style="font:alexandria;">< Receipt Details</h3>
+    </header>
+    <!--###########   Setup Dialog     ##########-->
+    <dialog id="dialog">
+      <input id="messageInput" placeholder="Item" />
+      <input id="datepicker" placeholder="date" />
+      <ul class="list"></ul>
+      <button id="add">add</button>
+    </dialog>
+
+    <!--########## BODY ############ -->
+
+    <div id="app">
+      <img
+        id="blogo"
+        src="https://i.ibb.co/vLHzdzM/pngfind-com-walmart-logo-png-572731.png"
+      />
+      <br />
+      <!--STORE INFO-->
+      <p id="phone">360-258-2654</p>
+      <p>ST# 05461 OP# 001776 TE# 67 TR# 04809</p>
+      
+      <!--ITEM NAME AND UPC-->
+      <div class="gridContainer">
+      <div class="itemInfo">
+      <p class="" id="product">75" BIG ASS TV TOSHIBA 04233355265 899.99 T</p>
+      </div>
+      <!--ITEM PRICE-->
+      <div class="subtotal" style="justify-content: flex-end; margin: 0 15px">
+        <p id="subtotal">SUBTOTAL</p>
+        <span style="margin: 0 30px">
+          <p>899.99</p>
+        </span>
+      </div>
+      <div style="display: flex; justify-content: flex-end; margin: 0 15px">
+        <p>TAX 0.15%</p>
+        <span style="margin: 0 30px">
+          <p>09.60</p>
+        </span>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end; margin: 0 15px">
+        <p>TOTAL</p>
+        <span style="margin: 0 30px">
+          <p>909.59</p>
+        </span>
+      </div>
+      <div style="display: flex; justify-content: flex-end; margin: 0 15px">
+        <p>WMP VISA TEND</p>
+        <span style="margin: 0 30px">
+          <p>909.59</p>
+        </span>
+      </div>
+    </div>
+      <div id="account"
+        style="
+          display: block;
+          justify-content: flex-start;
+          text-align: left;
+          margin: 35px;
+          margin-top: 0;
+        "
+      >
+        <p>WALMART PAY</p>
+        <p>ACCOUNT # XXXX XXXX XXXX 4389</p>
+        <p>XREF # 1206678833238</p>
+        <p>APPROVAL # 3356764</p>
+        <p>TRANS ID 64728764763764</p>
+        <p>VALIDATION 6RDF7</p>
+        <p>* NO SIGNATURE REQUIRED</p>
+        <p>TERMINAL # SC0169278</p>
+      </div>
+      <h2># ITEMS SOLD !</h2>
+      <img
+        style="width: 70%; height: 40px"
+        src="https://axiconlabels.com/images/gs1%20128.jpg?crc=4183307430"
+      />
+    </div>
+  </body>
+</html>

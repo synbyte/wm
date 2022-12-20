@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300&family=Courier+Prime&display=swap');
+$blue: #0084ff;
+$blue-darker: darken($blue, 10);
+#messageContainer {
+  background-color: 'whitesmoke';
+}
+body {
+  background: white;
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier Prime', monospace;
+}
+.gridContainer {
+  display: grid;
+  border:none; 
+  margin:0 0em;
+  
+}
+
+dialog {
+  display: none;
+  box-shadow: 3px 3px 15px black;
+  font-family: 'Courier Prime', monospace;
+}
+#blogo {
+  display: flex;
+  margin: auto;
+  justify-self: center;
+  width: 75%;
+  margin-top: 10%;
+}
+
+.subtotal {
+  display: flex;
+}
+header {
+  display: flex;
+  background: #00498d;
+  width: 100vw;
+  height: 50px;
+  color: white;
+  margin: 0;
+  
+  align-self: space-around;
+  justify-content: start;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Alexandria', monospace;
+
+}
+
+
+
+
+
+li {
+  font-family: 'Courier Prime', monospace;
+}
+#app {
+  width: 100vw;
+  display: table;
+  text-align: center;
+  margin: 10% auto;
+  overflow: hidden;
+}
+
+.material-icons {
+  font-size: 45px;
+}
+.mdi {
+  font-size: 45px;
+  font-weight: 10;
+  padding: auto;
+}
+#wm {
+  align-self: left;
+  justify-self: left;
+  display: flex;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+p {
+  margin: 0px;
+  font-size: 0.8em;
+  line-height: 1.2;
+  font-weight: 700;
+}
